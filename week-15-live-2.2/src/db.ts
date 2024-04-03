@@ -1,7 +1,6 @@
 import mongoose, { Schema, model } from "mongoose";
 
 const mongoUrl: string = "";
-
 // Connect to MongoDB
 mongoose
   .connect(mongoUrl)
